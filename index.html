@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head profile="http://www.w3.org/2005/10/profile">
+   <title>Welcome to Blue Turtle Labs -- We're Building Something Amazing</title>
+   <script type="text/javascript" src="scripts/modernizr-latest.js"></script>
+   <script type="text/javascript" src="scripts/jquery-2.1.0.js"></script>
+   <link rel="icon" href="img/blueturtle.ico">
+   <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+   <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id=header></div>
+<div id=header1></div>
+<div id=header2></div>
+<div id=header3></div>
+<div id=header4></div>
+<div id=logo>
+	<a border=0 href="index.html">
+        <img class=svgrep src="img/blueturtlelabs.png" width=250 alt="Blue Turtle Labs" >
+	</a>
+</div>
+<div id=menu>
+    <a href="aboutus.html"><div class=menuitem>About Us</div></a>
+    <a href="design-space"><div class=menuitem>DesignSpace</div></a>
+    <div class=menuitem>Forum</div>
+</div>
+<div id=main>
+    <h1>Stirling Technology,<br\>
+        Global Collaboration</h1>
+    <p>
+        The mission of Blue Turtle Labs is to develop innovative, commercially competative
+        designs for devices powered by Stirling engines.
+    </p>
+    <h2>Open Design</h2>
+    <p>
+        Through open design and global collaboration with engineers and experts, Blue
+        Turtle Labs will advance the state of the art of Stirling engine technology.
+    </p>
+    <h2>Contribute</h2>
+    <p>
+        Want to help out? Sign up for our forum or contribute to our <a href="/design-space"> DesignSpace</a> wiki.
+    </p>
+</div>
+<script>
+if (Modernizr.svg) {
+   svgarray = document.querySelectorAll(".svgrep")
+   for (var i = 0; i < svgarray.length; i++) {
+      var myid = svgarray[i].id;
+      var mysrc = document.getElementById(myid);
+      var mylink = document.getElementById(myid).src;
+      mysrc.src = mylink.replace('.png','.svg');
+   }
+}
+</script>
+</body>
+</html>
