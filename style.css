@@ -4,7 +4,7 @@ html { font-family:             Cabin, Verdana, Arial, Helvetica, sans-serif;
        min-width:               800px;
 }
 body { background:              #fff;
-       color:                   #80b3ff;
+       color:                   #aaa;
        width:                   100%;
        height:                  100%;
        padding:                 0;
@@ -132,7 +132,7 @@ div#menu {
         width:                  450px;
         text-align:             center;
         color:                  white;
-        background:             #3ff;
+        background:             #80b3ff;
         border:                 0;
         border-style:           none;
         border-color:           #80b3ff;
@@ -144,7 +144,7 @@ div#menu {
 div.menuitem {
         float:                  left;
         width:                  150px;
-        background-color:       #80b3ff;
+        background:             #80b3ff;
         color:                  white;
         font-weight:            bold;
         font-family:            Cabin, Verdana, Arial, Helvetica, sans-serif;
