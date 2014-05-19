@@ -6,7 +6,7 @@ competative designs for devices powered by Stirling engines.
 Our strategy is to connect a worldwide network of engineers in a system where
 each individual engineer's commitments can be small, but together can perform 
 complex engineering assessments required to produce modern, comercially viable
-power system design. It's crowdsourcing, for engineering design.
+power system design. It's crowdsourcing engineering design.
 
 #Open Design
 We believe that sharing knowledge benefits all of mankind. While we're
