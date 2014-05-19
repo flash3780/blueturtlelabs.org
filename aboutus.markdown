@@ -17,4 +17,4 @@ online. The intent of this is twofold:
 
 #How to Help
 Do you know about engineering design? Sign up for our
-[design-space](design-space wiki) and start contributing!
+[design-space](design-space) wiki and start contributing!
