@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head profile="http://www.w3.org/2005/10/profile">
+   <title>Welcome to Blue Turtle Labs -- We're Building Something Amazing</title>
+   <script type="text/javascript" src="scripts/modernizr-latest.js"></script>
+   <script type="text/javascript" src="scripts/jquery-2.1.0.js"></script>
+   <link rel="icon" href="img/blueturtle.ico">
+   <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+   <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id=header></div>
+<div id=header1></div>
+<div id=header2></div>
+<div id=header3></div>
+<div id=header4></div>
+<div id=logo>
+	<a href="index.html">
+        <img class=svgrep src="img/blueturtlelabs.png" width=250 alt="Blue Turtle Labs" >
+	</a>
+</div>
+<div id=menu>
+    <a href="aboutus.html"><div class=menuitem>About Us</div></a>
+    <a href="design-space"><div class=menuitem>DesignSpace</div></a>
+    <div class=menuitem>Projects</div>
+</div>
+<div id=main>
+    <h1 id="about-us">Projects</h1>
+    <p>Blue Turtle Labs is currently working on several exciting engineering
+    projects.</p>
+    <h2 id="Stirling Engine">Stirling Engine Design</h2>
+    <p>We are currently working on the design of a commercially viable stirling
+    engine, which will ultimately provide an integrated power solution for solar
+    and wind-powered generation systems. This technology will provide economical
+    off-grid power solutions for rural applications.</p>
+    <h2 id="Post Anchor">Post Anchor Design</h2>
+    <p>We are currently working on an anchoring system to connect wooden posts
+    to concrete footings. This anchor design provides a strong support for
+    wooden railings and fences. Key features of this anchor design include:</p>
+    <ul>
+        <li>Able to attach pressure treated wooden posts to existing or new
+        concrete footings. Attachment shall withstand significant loading,
+        making it suitable for a wide variety of applications.</li>
+        <li>Anchoring system allows for wooden posts to be replaced in case of
+        rot or decay without damaging concrete footing.</li>
+    </ul>
+    <h2 id="how-to-help">How to Help</h2>
+    <p>Do you know about engineering design? Read our <a
+        href="design-space">design-space</a> wiki learn how to start
+       contributing!</p>
+</div>
+<script>
+if (Modernizr.svg) {
+   svgarray = document.querySelectorAll(".svgrep")
+   for (var i = 0; i < svgarray.length; i++) {
+      var myid = svgarray[i].id;
+      var mysrc = document.getElementById(myid);
+      var mylink = document.getElementById(myid).src;
+      mysrc.src = mylink.replace('.png','.svg');
+   }
+}
+</script>
+</body>
+</html>
